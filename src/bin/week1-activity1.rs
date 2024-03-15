@@ -8,5 +8,17 @@
 // * buat sebuah fungsi untuk menampilkan nama belakang mu
 // * Gunakan macro println untuk menampilkan pesan ke terminal
 // * Panggil kedua fungsi tersebut dari dalam fungsi main
+//
 
-fn main() {}
+fn display_first_name() {
+    println!("Rizky");
+}
+
+fn display_last_name() {
+    println!("Arif");
+}
+
+fn main() {
+    display_first_name();
+    display_last_name();
+}
